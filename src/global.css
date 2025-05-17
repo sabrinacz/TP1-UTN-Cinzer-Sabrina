@@ -1,0 +1,56 @@
+/* Estilos globales */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --body-font: "Inter", sans-serif;
+    --primary-bg-color: #1d1d1d;
+    --primary-text-color: #ffffff;
+    --secondary-bg-color: #ffffff;
+    --secondary-text-color: #090909;
+    --text-color: #090909;
+    --sub-text-color: #777;
+    --border-color: #dbdbdb;
+    --background-color: #f9fafb;
+}
+body {
+    font-size: 16px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--body-font);
+}
+
+h1 {
+    font-size: 1.75rem;
+}   
+
+h2, h3, h4, h5, h6 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.text-small {
+    font-size: 0.75rem;
+}
+
+a {
+    color: var(--text-color);
+}
+
+
